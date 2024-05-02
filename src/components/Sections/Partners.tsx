@@ -7,7 +7,7 @@ const Partners = () => {
     return (
         <>
             <Grid>
-                <div className='col-span-1 pb-1'>
+                <div className='col-start-2 lg:col-start-1 col-span-1 pb-1'>
                     <h2 className='text-rouge'>🤝🏼 Parceiros</h2>
                 </div>
             </Grid>

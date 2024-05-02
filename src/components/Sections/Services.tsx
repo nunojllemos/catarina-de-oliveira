@@ -33,17 +33,17 @@ const Services = () => {
     ]
 
     return (
-        <section id='servicos' className='py-24'>
+        <section id='servicos' className='py-24 scroll-m-16'>
             <div className='mx-auto max-w-[35rem]'>
                 <Text position={'center'}>
                     Olhamos para os nosso clientes como pessoas primeiro ❤️ e por isso, defendemos os nossos valores diariamente acreditando que desta forma os
                     que decidem ficar connosco estão em boas mãos.
                 </Text>
             </div>
-            <Grid className='mt-16'>
-                <div></div>
+            <Grid className='mt-16 gap-y-8'>
+                <div className='hidden xl:block'></div>
                 {services.map(({ title, description, hashtag }) => (
-                    <div key={hashtag} className='col-span-2'>
+                    <div key={hashtag} className='col-span-10 col-start-2 lg:col-span-4 xl:col-span-2'>
                         <ServiceCard title={title} description={description} hashtag={hashtag} />
                     </div>
                 ))}

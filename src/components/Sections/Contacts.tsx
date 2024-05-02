@@ -1,11 +1,14 @@
 import React from 'react'
 import Grid from '../Grid'
+import MessageForm from '../Forms/MessageForm'
 
 const Contacts = () => {
     return (
-        <section className='py-16'>
+        <section className='py-16 scroll-m-16'>
             <Grid>
-                <div className='col-span-5 col-start-2'>1</div>
+                <div className='col-span-5 col-start-2'>
+                    <MessageForm />
+                </div>
                 <div className='col-span-1 col-start-7 flex justify-center'>
                     <div className='w-px bg-rouge/50'></div>
                 </div>

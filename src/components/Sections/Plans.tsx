@@ -35,9 +35,9 @@ const Plans = () => {
     ]
 
     return (
-        <section className='py-24 bg-rouge'>
+        <section className='py-24 bg-rouge scroll-m-16' id='planos'>
             <Grid>
-                <div className='col-span-10 col-start-2 flex gap-x-5'>
+                <div className='col-span-10 col-start-2 lg:col-span-12 xl:col-span-10 xl:col-start-2 flex flex-wrap lg:flex-nowrap gap-y-8 gap-x-5'>
                     {plans.map(({ title, value, posts, stories, reels, report, hashtags }) => (
                         <div key={title} className='w-full'>
                             <PlanCard title={title} value={value} posts={posts} stories={stories} reels={reels} report={report} hashtags={hashtags} />
