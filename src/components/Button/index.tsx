@@ -18,7 +18,7 @@ const variants = cva('py-2 px-5 border border-rouge rounded-full transition-colo
 interface PropsTypes extends VariantProps<typeof variants>, React.HTMLAttributes<HTMLButtonElement> {
     children: React.ReactNode
     isLink?: boolean
-    href: Url
+    href?: Url
 }
 
 const Button = ({ children, isLink = true, href = '', variant, className }: PropsTypes) => {
