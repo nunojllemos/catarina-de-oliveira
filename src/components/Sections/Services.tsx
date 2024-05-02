@@ -2,6 +2,7 @@ import React from 'react'
 import Text from '../Text'
 import Grid from '../Grid'
 import ServiceCard from '../Cards/ServiceCard'
+import Container from '../Container'
 
 const Services = () => {
     const services = [
@@ -35,15 +36,17 @@ const Services = () => {
     return (
         <section id='servicos' className='py-24 scroll-m-16'>
             <div className='mx-auto max-w-[35rem]'>
-                <Text position={'center'}>
-                    Olhamos para os nosso clientes como pessoas primeiro ❤️ e por isso, defendemos os nossos valores diariamente acreditando que desta forma os
-                    que decidem ficar connosco estão em boas mãos.
-                </Text>
+                <Container>
+                    <Text position={'center'}>
+                        Olhamos para os nosso clientes como pessoas primeiro ❤️ e por isso, defendemos os nossos valores diariamente acreditando que desta forma
+                        os que decidem ficar connosco estão em boas mãos.
+                    </Text>
+                </Container>
             </div>
             <Grid className='mt-16 gap-y-8'>
                 <div className='hidden xl:block'></div>
                 {services.map(({ title, description, hashtag }) => (
-                    <div key={hashtag} className='col-span-10 col-start-2 lg:col-span-4 xl:col-span-2'>
+                    <div key={hashtag} className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-4 xl:col-span-2'>
                         <ServiceCard title={title} description={description} hashtag={hashtag} />
                     </div>
                 ))}

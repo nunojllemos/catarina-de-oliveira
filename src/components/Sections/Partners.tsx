@@ -7,12 +7,12 @@ const Partners = () => {
     return (
         <>
             <Grid>
-                <div className='col-start-2 lg:col-start-1 col-span-1 pb-1'>
+                <div className='md:col-start-2 lg:col-start-1 col-span-12 pb-1'>
                     <h2 className='text-rouge'>🤝🏼 Parceiros</h2>
                 </div>
             </Grid>
             <section className='bg-rouge py-8'>
-                <Marquee className='gap-x-32'>
+                <Marquee className='gap-x-8 md:gap-x-32'>
                     <McDonalds />
                     <McDonalds />
                     <McDonalds />

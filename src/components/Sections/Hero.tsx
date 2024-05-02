@@ -24,13 +24,15 @@ const Hero = () => {
                         </Text>
                     </div>
                     <div className='flex items-center gap-x-4'>
-                        <Button href={''}>Contactos</Button>
-                        <Button href={''} variant={'secondary'}>
+                        <Button className='w-full md:w-max' href={''}>
+                            Contactos
+                        </Button>
+                        <Button className='w-full md:w-max' href={''} variant={'secondary'}>
                             Serviços
                         </Button>
                     </div>
                 </div>
-                <div className='absolute right-8 top-1/2 -translate-y-1/2 w-[75%] md:w-[50%] opacity-25 lg:translate-y-0 lg:w-auto lg:opacity-100 lg:static col-span-8 col-start-3 lg:col-span-6 xl:col-span-5'>
+                <div className='absolute right-8 top-1/2 -translate-y-1/2 w-[calc(100%_-_4rem)] md:w-[50%] opacity-15 lg:translate-y-0 lg:w-auto lg:opacity-100 lg:static col-span-8 col-start-3 lg:col-span-6 xl:col-span-5'>
                     <HeroImage />
                 </div>
             </Grid>

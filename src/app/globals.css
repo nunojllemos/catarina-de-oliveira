@@ -13,3 +13,9 @@
     gap: 10rem !important;
     min-width: var(--min-width) !important;
 }
+
+@media screen and (max-width: 768px) {
+    .rfm-initial-child-container {
+        gap: 4rem !important;
+    }
+}
