@@ -10,7 +10,7 @@ const Footer = () => {
         <footer className='bg-rouge py-6'>
             <Grid>
                 <div className='col-span-12'>
-                    <div className='flex justify-between'>
+                    <div className='flex flex-col gap-4 md:gap-0 md:flex-row justify-between'>
                         <Text variant={'normal'} size={'sm'}>
                             {currentYear} © Todos os direitos reservados Catarina De Oliveira
                         </Text>

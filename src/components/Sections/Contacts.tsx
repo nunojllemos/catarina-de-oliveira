@@ -5,7 +5,7 @@ import CallMeForm from '../Forms/CallMeForm'
 
 const Contacts = () => {
     return (
-        <section className='py-16 scroll-m-16'>
+        <section id='contactos' className='py-16 scroll-m-16'>
             <Grid>
                 <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-5 xl:col-start-2'>
                     <MessageForm />

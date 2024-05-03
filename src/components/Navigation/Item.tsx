@@ -10,7 +10,7 @@ interface PropsTypes {
 const Item = ({ children, href, onClick }: PropsTypes) => {
     return (
         <li onClick={onClick}>
-            <Link className='p-1 hover:text-rouge transition-colors duration-300 text-5xl text-rouge md:text-black md:text-base' href={href}>
+            <Link className='p-1 hover:text-rouge transition-colors duration-300 text-5xl text-rouge md:text-black md:text-base h-max block' href={href}>
                 {children}
             </Link>
         </li>

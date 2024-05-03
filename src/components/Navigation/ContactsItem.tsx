@@ -8,12 +8,12 @@ interface PropsTypes {
 
 const ContactsItem = ({ onClick }: PropsTypes) => {
     return (
-        <div className='flex items-center gap-2 pl-2 xl:pl-8'>
-            <ContactIcon />
-            <Item onClick={onClick} href='/#contactos'>
-                Contactos
-            </Item>
-        </div>
+        <Item onClick={onClick} href='/#contactos'>
+            <div className='flex items-center gap-2 pl-2 xl:pl-8'>
+                <ContactIcon />
+                <span>Contactos</span>
+            </div>
+        </Item>
     )
 }
 

@@ -21,6 +21,7 @@ const variants = cva('', {
             md: 'text-md',
             lg: 'text-lg',
             xl: 'text-xl',
+            xxl: 'text-[64px]',
         },
     },
     defaultVariants: {

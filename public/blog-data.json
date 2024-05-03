@@ -1,0 +1,54 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "slug": "como-aumentar-a-visibilidade-online",
+            "title": "Como aumentar a visibilidade online? 🤔",
+            "date": "22/05/2024",
+            "author": "Catarina Oliveira",
+            "cover": "https://i.postimg.cc/NF4cv9bs/how-to-write-a-blog-post-760x406.jpg",
+            "description": "Lorem ipsum",
+            "is_featured": true
+        },
+        {
+            "id": 2,
+            "slug": "quais-as-redes-sociais-com-mais-utilizadores",
+            "title": "Quais as redes sociais com mais utilizadores? 💡",
+            "date": "31/06/2024",
+            "author": "Catarina Oliveira",
+            "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
+            "description": "Lorem ipsum",
+            "is_featured": true
+        },
+        {
+            "id": 3,
+            "slug": "quais-as-redes-sociais-com-mais-utilizadores",
+            "title": "Quais as redes sociais com mais utilizadores? 💡",
+            "date": "31/06/2024",
+            "author": "Catarina Oliveira",
+            "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
+            "description": "Lorem ipsum",
+            "is_featured": false
+        },
+        {
+            "id": 4,
+            "slug": "quais-as-redes-sociais-com-mais-utilizadores",
+            "title": "Quais as redes sociais com mais utilizadores? 💡",
+            "date": "31/06/2024",
+            "author": "Catarina Oliveira",
+            "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
+            "description": "Lorem ipsum",
+            "is_featured": false
+        },
+        {
+            "id": 5,
+            "slug": "quais-as-redes-sociais-com-mais-utilizadores",
+            "title": "Quais as redes sociais com mais utilizadores? 💡",
+            "date": "31/06/2024",
+            "author": "Catarina Oliveira",
+            "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
+            "description": "Lorem ipsum",
+            "is_featured": false
+        }
+    ]
+}
