@@ -7,28 +7,30 @@ import Container from '../Container'
 const Services = () => {
     const services = [
         {
-            title: '💾 Presença online consistente',
-            description: 'Uma presença online consistente é a base para uma boa gestão das redes sociais.',
+            title: '👩‍💻 Gestão de redes sociais',
+            description:
+                'Planeamento e Calendário Editorial, Criação de conteúdo, Otimização de Perfis e Páginas, Agendamento de Publicações, Estratégias para aumento de seguidores e engagement, Criação de Campanhas de Publicidade e Análide de Relatórios.',
             hashtag: '#social-networking',
         },
         {
-            title: '🎥 Criação de conteúdo relevante',
-            description: 'Hoje em dia o conteúdo tem de seguir certos padrões para se tornar atrativo para o consumidor.',
-            hashtag: '#copyright-matters',
+            title: '🧠 Consultoria estratégica',
+            description:
+                'A nossa consultoria é uma oportunidade única para impulsionares o teu negócio para novos patamares de sucesso! Com a nossa orientação especializada, terás acesso a estratégias personalizadas e insights valiosos que te ajudarão a alcançar os teus objetivos de forma eficaz e eficiente.',
+            hashtag: '#consulting',
         },
         {
-            title: '👀 Monitorização da concorrência',
-            description: 'É importante que o seu negócio esteja atento ao mercado para acompanhar as novas tendências.',
+            title: '📸 Captação de imagem',
+            description: 'Através de fotografia ou videografia.',
             hashtag: '#market-evaluation',
         },
         {
-            title: '🥰 Atendimento personalizado',
-            description: 'Cada cliente é único e fazemos tudo para que se sinta dessa forma.',
+            title: '🖌️ Design gráfico',
+            description: 'Todos os elementos gráficos e de identidade visual que uma marca necessita.',
             hashtag: '#people-first',
         },
         {
-            title: '📊 Análise de relatórios',
-            description: 'Analisamos os dados estastísticos digitais do seu negócio de forma a adaptar a estratégia inicial.',
+            title: '💻 Criação de websites',
+            description: '',
             hashtag: '#data-reports',
         },
     ]
