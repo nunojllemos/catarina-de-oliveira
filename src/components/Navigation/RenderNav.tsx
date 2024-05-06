@@ -7,7 +7,7 @@ import Search from './Search'
 const RenderNav = () => {
     const pathname = usePathname()
 
-    return pathname.includes('/blog') ? <Search /> : <Nav />
+    return pathname.includes('/blog') ? !pathname.includes('/blog/') && <Search /> : <Nav />
 }
 
 export default RenderNav

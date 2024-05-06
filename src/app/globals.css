@@ -23,12 +23,6 @@ body {
     min-width: var(--min-width) !important;
 }
 
-@media screen and (max-width: 768px) {
-    .rfm-initial-child-container {
-        gap: 4rem !important;
-    }
-}
-
 /* HTML: <div class="loader"></div> */
 .loader {
     width: 30px;
@@ -72,5 +66,23 @@ body {
     }
     100% {
         transform: scaleY(-1) rotate(-135deg);
+    }
+}
+#post-content-container p {
+    margin-top: 1rem;
+}
+#post-content-container img {
+    margin: 2rem auto;
+    border-radius: 6px;
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    #post-content-container img {
+        width: 100%;
+    }
+
+    .rfm-initial-child-container {
+        gap: 4rem !important;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { cva, VariantProps } from 'class-variance-authority'
 
-const variants = cva('', {
+const variants = cva('leading-tight', {
     variants: {
         variant: {
             primary: 'text-black',
@@ -21,7 +21,8 @@ const variants = cva('', {
             md: 'text-md',
             lg: 'text-lg',
             xl: 'text-xl',
-            xxl: 'text-[64px]',
+            xxl: 'text-2xl md:text-3xl lg:text-5xl',
+            xxxl: 'text-[64px]',
         },
     },
     defaultVariants: {

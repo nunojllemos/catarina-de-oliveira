@@ -31,7 +31,7 @@ export default function Blog() {
                     </Link>
                 </div>
                 <div className='col-span-12 pt-8 pb-16'>
-                    <Text position='center' size='xxl' element='h1'>
+                    <Text position='center' size='xxxl' element='h1'>
                         Blog 👩🏼‍🎓
                     </Text>
                 </div>

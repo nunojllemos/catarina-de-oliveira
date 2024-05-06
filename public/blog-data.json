@@ -7,7 +7,7 @@
             "date": "22/05/2024",
             "author": "Catarina Oliveira",
             "cover": "https://i.postimg.cc/NF4cv9bs/how-to-write-a-blog-post-760x406.jpg",
-            "description": "Lorem ipsum",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><img src='https://i.postimg.cc/L6y0XDPv/Increase-Online-Visibility-Strategies-to-Improve-Online-Presence.png' alt='IMAGE ALT' /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p><p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
             "is_featured": true
         },
         {
@@ -17,37 +17,37 @@
             "date": "31/06/2024",
             "author": "Nuno Lemos",
             "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
-            "description": "Lorem ipsum",
+            "content": "Lorem ipsum",
             "is_featured": true
         },
         {
             "id": 3,
-            "slug": "quais-as-redes-sociais-com-mais-utilizadores",
-            "title": "Quais as redes sociais com mais utilizadores? 💡",
+            "slug": "quais-as-redes-sociais-com-mais-utilizadores-1",
+            "title": "Quais as redes sociais com mais utilizadores 01? 💡",
             "date": "31/06/2024",
             "author": "Ana Cima",
             "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
-            "description": "Lorem ipsum",
+            "content": "Lorem ipsum",
             "is_featured": false
         },
         {
             "id": 4,
-            "slug": "quais-as-redes-sociais-com-mais-utilizadores",
-            "title": "Quais as redes sociais com mais utilizadores? 💡",
+            "slug": "quais-as-redes-sociais-com-mais-utilizadores-2",
+            "title": "Quais as redes sociais com mais utilizadores 02? 💡",
             "date": "31/06/2024",
             "author": "Catarina Oliveira",
             "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
-            "description": "Lorem ipsum",
+            "content": "Lorem ipsum",
             "is_featured": false
         },
         {
             "id": 5,
-            "slug": "quais-as-redes-sociais-com-mais-utilizadores",
-            "title": "Quais as redes sociais com mais utilizadores? 💡",
+            "slug": "quais-as-redes-sociais-com-mais-utilizadores-3",
+            "title": "Quais as redes sociais com mais utilizadores 03? 💡",
             "date": "31/06/2024",
             "author": "Catarina Oliveira",
             "cover": "https://i.postimg.cc/N0y7r6nz/social-networking-184313840-384936.jpg",
-            "description": "Lorem ipsum",
+            "content": "Lorem ipsum",
             "is_featured": false
         }
     ]
