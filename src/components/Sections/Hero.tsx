@@ -14,7 +14,7 @@ const Hero = () => {
                     <div className='py-8'>
                         <Text>
                             Quer estejas a dar os primeiros passos no mundo digital ou a procurar impulsionar o teu negócio para novos patamares de sucesso,
-                            estou aqui para te ajudar.
+                            estamos aqui para te ajudar.
                             <br />
                             Com estratégias de marketing digital personalizadas, vamos transformar os teus sonhos em realidade.
                             <br />
