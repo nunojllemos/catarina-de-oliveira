@@ -10,17 +10,14 @@ const Hero = () => {
             <Grid className='gap-y-16' isCenter={'center'}>
                 <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-5 xl:col-start-2'>
                     <h2>💪🏼 MARKETING DIGITAL</h2>
-                    <h1 className='pt-2 font-bold text-5xl md:text-[4rem] leading-[95%]'>
-                        Aumente
-                        <br /> a presença
-                        <br /> do seu negócio
-                        <br /> no mundo digital
-                    </h1>
+                    <h1 className='pt-2 font-bold text-5xl md:text-[4rem] leading-[95%]'>Alcança o teu sucesso online! ✨</h1>
                     <div className='py-8'>
                         <Text>
-                            O marketing digital ajuda a promover o seu negócio.
+                            Quer estejas a dar os primeiros passos no mundo digital ou a procurar impulsionar o teu negócio para novos patamares de sucesso,
+                            estou aqui para te ajudar.
                             <br />
-                            Negócios com uma boa presença online têm 54% mais chances de angariarem potenciais novos clientes.
+                            Com estratégias de marketing digital personalizadas, vamos transformar os teus sonhos em realidade. Juntos, vamos alcançar o
+                            extraordinário! 💼 🚀
                         </Text>
                     </div>
                     <div className='flex items-center gap-x-4'>

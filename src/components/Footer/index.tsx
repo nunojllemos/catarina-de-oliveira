@@ -21,7 +21,7 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a className='hover:opacity-50 transition-opacity duration-300' href='' target='_blank'>
+                                <a className='hover:opacity-50 transition-opacity duration-300' href='https://www.instagram.com/catarinadeoliveira.pt' target='_blank'>
                                     <InstagramIcon />
                                 </a>
                             </li>
