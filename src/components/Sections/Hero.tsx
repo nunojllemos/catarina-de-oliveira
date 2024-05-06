@@ -24,10 +24,10 @@ const Hero = () => {
                         </Text>
                     </div>
                     <div className='flex items-center gap-x-4'>
-                        <Button className='w-full md:w-max' href={''}>
+                        <Button className='w-full md:w-max' href={'/#contactos'}>
                             Contactos
                         </Button>
-                        <Button className='w-full md:w-max' href={''} variant={'secondary'}>
+                        <Button className='w-full md:w-max' href={'/#servicos'} variant={'secondary'}>
                             Serviços
                         </Button>
                     </div>

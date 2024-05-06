@@ -21,6 +21,7 @@ const Search = () => {
                 className='border border-light-gray py-1 px-2 rounded-[5px] block w-full md:max-w-80 md:w-80 placeholder:text-light-gray'
                 placeholder='Pesquisar...'
                 type='text'
+                value={inputValue}
             />
             <Button isLink={false}>
                 🔍 <span className='hidden md:inline'>Pesquisar</span>

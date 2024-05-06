@@ -22,16 +22,12 @@ interface PropsTypes extends VariantProps<typeof variants>, React.HTMLAttributes
 }
 
 const Button = ({ children, isLink = true, href = '', variant, className }: PropsTypes) => {
-    return (
-        <button className={variants({ variant, className })}>
-            {isLink ? (
-                <Link href={href} className='leading-none'>
-                    {children}
-                </Link>
-            ) : (
-                children
-            )}
-        </button>
+    return isLink ? (
+        <Link href={href} className='block'>
+            <button className={variants({ variant, className })}>{children}</button>
+        </Link>
+    ) : (
+        <button className={variants({ variant, className })}>{children}</button>
     )
 }
 
