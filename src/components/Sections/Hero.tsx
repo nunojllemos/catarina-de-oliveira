@@ -16,8 +16,9 @@ const Hero = () => {
                             Quer estejas a dar os primeiros passos no mundo digital ou a procurar impulsionar o teu negócio para novos patamares de sucesso,
                             estou aqui para te ajudar.
                             <br />
-                            Com estratégias de marketing digital personalizadas, vamos transformar os teus sonhos em realidade. Juntos, vamos alcançar o
-                            extraordinário! 💼 🚀
+                            Com estratégias de marketing digital personalizadas, vamos transformar os teus sonhos em realidade.
+                            <br />
+                            Juntos, vamos alcançar o extraordinário! 💼 🚀
                         </Text>
                     </div>
                     <div className='flex items-center gap-x-4'>
