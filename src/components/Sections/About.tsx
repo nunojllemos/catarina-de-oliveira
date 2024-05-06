@@ -14,12 +14,17 @@ const About = () => {
             <Grid className='items-center mt-8 gap-y-16'>
                 <div className='col-span-12 md:col-start-2 md:col-span-10 lg:col-span-6 xl:col-span-5 xl:col-start-2'>
                     <Text>
-                        Lorem ipsum dolor sit amet ❤️, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        ad minim 🌱 veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Olá! 😊 O meu nome é Catarina De Oliveira, tenho 38 anos, e sou especialista em gestão de redes sociais, apaixonada por ajudar empresas
+                        a alcançarem o seu potencial máximo online. 💼
                         <br />
                         <br />
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 🥰
+                        Construí a minha própria empresa do zero e estou pronta para impulsionar a tua presença nas redes sociais e criar conexões autênticas
+                        com o teu público-alvo. 🚀 A minha abordagem estratégica, criativa e dedicação visam aumentar as interações, construir relacionamentos
+                        duradouros e gerar um impacto positivo na perceção da tua marca.
+                        <br />
+                        <br />
+                        Sou reconhecida pela minha habilidade em elevar as marcas a um patamar de referência no mercado. 🏆 Acredito no destaque das redes
+                        sociais na era digital e como elas podem impactar diretamente os resultados do teu negócio. 💡
                     </Text>
                 </div>
                 <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-4 xl:col-start-8 relative rounded-md overflow-hidden shadow-[6px_6px_0_#995759]'>
