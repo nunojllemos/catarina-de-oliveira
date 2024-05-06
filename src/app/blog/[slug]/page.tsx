@@ -23,11 +23,6 @@ interface PropsTypes {
     }
 }
 
-export const metadata = {
-    title: 'Catarina de Oliveira | Blog',
-    description: 'Marketing Digital',
-}
-
 export default function Blog({ params: { slug } }: PropsTypes) {
     const [post, setPost] = useState<Post>()
 
