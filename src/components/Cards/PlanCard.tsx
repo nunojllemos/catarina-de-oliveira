@@ -4,20 +4,20 @@ import Text from '../Text'
 
 interface PropsTypes {
     title: string
-    value: string
+    price: string
     posts: string
     stories: string
     reels: string
     report: string
-    hashtags: string
+    hashtags?: string
 }
 
-const PlanCard = ({ title, value, posts, stories, reels, report, hashtags }: PropsTypes) => {
+const PlanCard = ({ title, price, posts, stories, reels, report, hashtags }: PropsTypes) => {
     return (
         <article className='bg-white rounded-md border border-rouge shadow-[4px_4px_0_#FFF] py-6 px-4 '>
             <div className='flex gap-4'>
                 <h3 className='text-3xl text-rouge font-bold'>{title}</h3>
-                <PricePill price={value} />
+                {!price && <PricePill price={price} />}
             </div>
             <div className='mt-8'>
                 <ul className='w-full'>
@@ -37,10 +37,12 @@ const PlanCard = ({ title, value, posts, stories, reels, report, hashtags }: Pro
                         <Text>Relatório</Text>
                         <Text>{report}</Text>
                     </li>
-                    <li className='flex justify-between pt-[2px]'>
-                        <Text>Set de hashtags</Text>
-                        <Text>{hashtags}</Text>
-                    </li>
+                    {hashtags && (
+                        <li className='flex justify-between pt-[2px]'>
+                            <Text>Set de hashtags</Text>
+                            <Text>{hashtags}</Text>
+                        </li>
+                    )}
                 </ul>
             </div>
         </article>
