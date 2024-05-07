@@ -21,17 +21,17 @@ const Services = () => {
         {
             title: '📸 Captação de imagem',
             description: 'Através de fotografia ou videografia.',
-            hashtag: '#market-evaluation',
+            hashtag: '#media-content',
         },
         {
             title: '🖌️ Design gráfico',
             description: 'Todos os elementos gráficos e de identidade visual que uma marca necessita.',
-            hashtag: '#people-first',
+            hashtag: '#design',
         },
         {
             title: '💻 Criação de websites',
             description: '',
-            hashtag: '#data-reports',
+            hashtag: '#web-content',
         },
     ]
 
