@@ -16,12 +16,20 @@ const Footer = () => {
                         </Text>
                         <menu className='flex items-center gap-x-4 text-white'>
                             <li>
-                                <a className='hover:opacity-50 transition-opacity duration-300' href='' target='_blank'>
+                                <a
+                                    className='hover:opacity-50 transition-opacity duration-300'
+                                    href='https://www.facebook.com/profile.php?id=61556658309260'
+                                    target='_blank'
+                                >
                                     <FacebookIcon />
                                 </a>
                             </li>
                             <li>
-                                <a className='hover:opacity-50 transition-opacity duration-300' href='https://www.instagram.com/catarinadeoliveira.pt' target='_blank'>
+                                <a
+                                    className='hover:opacity-50 transition-opacity duration-300'
+                                    href='https://www.instagram.com/catarinadeoliveira.pt'
+                                    target='_blank'
+                                >
                                     <InstagramIcon />
                                 </a>
                             </li>

@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
+import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import Grid from '@/components/Grid'
@@ -25,15 +26,19 @@ interface PropsTypes {
 
 export default function Blog({ params: { slug } }: PropsTypes) {
     const [post, setPost] = useState<Post>()
+    const [loading, setLoading] = useState<boolean>(true)
 
     useEffect(() => {
         fetch('/blog-data.json')
             .then(res => res.json())
             .then(data => {
                 const newPost = data.data.filter((post: Post) => post.slug === slug)[0]
+                setLoading(false)
                 setPost(newPost)
             })
     }, [slug])
+
+    if (!post && !loading) return notFound()
 
     return (
         <React.Fragment>

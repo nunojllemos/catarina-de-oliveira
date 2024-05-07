@@ -43,9 +43,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     <link media='(prefers-color-scheme: dark)' rel='icon' type='image/png' sizes='96x96' href='/favicons/dark/favicon-96x96.png' />
                     <link media='(prefers-color-scheme: light)' rel='icon' type='image/png' sizes='16x16' href='/favicons/light/favicon-16x16.png' />
                     <link media='(prefers-color-scheme: dark)' rel='icon' type='image/png' sizes='16x16' href='/favicons/dark/favicon-16x16.png' />
-                    <link media='(prefers-color-scheme: light)' rel='manifest' href='/manifest.json' />
+                    <link media='(prefers-color-scheme: dark)' rel='manifest' href='/favicons/dark/manifest.json' />
+                    <link media='(prefers-color-scheme: light)' rel='manifest' href='/favicons/light/manifest.json' />
                     <meta name='msapplication-TileColor' content='#ffffff' />
-                    <meta name='msapplication-TileImage' content='/favicons/ms-icon-144x144.png' />
+                    <meta name='msapplication-TileImage' content='/favicons/light/ms-icon-144x144.png' />
                     <meta name='theme-color' content='#ffffff' />
                 </head>
                 <body className={lato.className}>
