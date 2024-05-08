@@ -1,6 +1,8 @@
 import React from 'react'
 import PricePill from '../PricePill'
 import Text from '../Text'
+import Button from '../Button'
+import Link from 'next/link'
 
 interface PropsTypes {
     title: string
@@ -44,6 +46,11 @@ const PlanCard = ({ title, price, posts, stories, reels, report, hashtags }: Pro
                         </li>
                     )}
                 </ul>
+            </div>
+            <div className='mt-8'>
+                <Link className='border-b border-rouge text-rouge' href='/#contactos'>
+                    + Saber mais
+                </Link>
             </div>
         </article>
     )
