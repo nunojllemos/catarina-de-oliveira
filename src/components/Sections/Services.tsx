@@ -7,29 +7,29 @@ import Container from '../Container'
 const Services = () => {
     const services = [
         {
-            title: '👩‍💻 Gestão de redes sociais',
+            title: '👩‍💻 Gestão de Redes Sociais',
             description:
                 'Planeamento e Calendário Editorial, Criação de conteúdo, Otimização de Perfis e Páginas, Agendamento de Publicações, Estratégias para aumento de seguidores e engagement, Criação de Campanhas de Publicidade e Análide de Relatórios.',
             hashtag: '#social-networking',
         },
         {
-            title: '🧠 Consultoria estratégica',
+            title: '🧠 Consultoria Estratégica',
             description:
                 'A nossa consultoria é uma oportunidade única para impulsionares o teu negócio para novos patamares de sucesso! Com a nossa orientação especializada, terás acesso a estratégias personalizadas e insights valiosos que te ajudarão a alcançar os teus objetivos de forma eficaz e eficiente.',
             hashtag: '#consulting',
         },
         {
-            title: '📸 Captação de imagem',
+            title: '📸 Captação de Imagem',
             description: 'Através de fotografia ou videografia.',
             hashtag: '#media-content',
         },
         {
-            title: '🖌️ Design gráfico',
+            title: '🖌️ Design Gráfico',
             description: 'Todos os elementos gráficos e de identidade visual que uma marca necessita.',
             hashtag: '#design',
         },
         {
-            title: '💻 Criação de websites',
+            title: '💻 Criação de Websites',
             description: '',
             hashtag: '#web-content',
         },
