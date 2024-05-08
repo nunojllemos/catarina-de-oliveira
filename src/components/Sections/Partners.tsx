@@ -37,6 +37,18 @@ const Partners = () => {
                     <div className='relative h-12 aspect-[331/122]'>
                         <Image alt='' className='object-cover' src='/partners/partner-0.png' fill={true} />
                     </div>
+                    <div className='relative h-12 aspect-[331/122]'>
+                        <Image alt='' className='object-cover' src='/partners/partner-0.png' fill={true} />
+                    </div>
+                    <div className='relative h-12 aspect-[331/122]'>
+                        <Image alt='' className='object-cover' src='/partners/partner-0.png' fill={true} />
+                    </div>
+                    <div className='relative h-12 aspect-[331/122]'>
+                        <Image alt='' className='object-cover' src='/partners/partner-0.png' fill={true} />
+                    </div>
+                    <div className='relative h-12 aspect-[331/122]'>
+                        <Image alt='' className='object-cover' src='/partners/partner-0.png' fill={true} />
+                    </div>
                 </Marquee>
             </section>
         </>
