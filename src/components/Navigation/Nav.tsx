@@ -17,8 +17,8 @@ const Nav = () => {
             title: 'Serviços',
         },
         {
-            href: '/#planos',
-            title: 'Planos',
+            href: '/#packs',
+            title: 'Packs',
         },
         {
             href: '/blog',
