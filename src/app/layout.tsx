@@ -7,11 +7,6 @@ import SearchContextProvider from '@/context/SearchContext'
 
 const lato = Lato({ weight: ['300', '400', '700'], subsets: ['latin'] })
 
-export const metadata = {
-    title: 'Catarina de Oliveira | Home',
-    description: 'Marketing Digital',
-}
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <SearchContextProvider>

@@ -16,6 +16,11 @@ export interface Post {
     slug: string
 }
 
+export const metadata = {
+    title: 'Catarina de Oliveira | Blog',
+    description: 'Blog sobre gestão de redes sociais e marketing digital',
+}
+
 export default function Blog() {
     return (
         <React.Fragment>

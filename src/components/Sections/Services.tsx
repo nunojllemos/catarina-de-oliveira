@@ -40,10 +40,12 @@ const Services = () => {
             <div className='mx-auto max-w-[35rem]'>
                 <Container>
                     <Text position={'center'}>
-                        Na nossa abordagem, colocamos sempre as pessoas em primeiro lugar ❤️.
+                        Tu és mais que um/a cliente, és parte da nossa família! {'❤️'}
                         <br />
-                        Acreditamos firmemente nos nossos valores e esforçamo-nos diariamente para garantir que os nossos clientes se sintam cuidados e
-                        apoiados. Acreditamos que ao fazê-lo, estamos a oferecer um serviço verdadeiramente excepcional aos que escolhem confiar em nós. ✨
+                        Todos os dias trabalhamos com dedicação para garantir que te sintas valorizado/a e apoiado/a.
+                        <br />
+                        <br />
+                        Juntos, vamos tornar cada experiência única e especial! 🤝🏼 ✨
                     </Text>
                 </Container>
             </div>

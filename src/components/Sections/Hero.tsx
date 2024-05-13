@@ -9,16 +9,17 @@ const Hero = () => {
         <section className='py-16 relative lg:static'>
             <Grid className='gap-y-16' isCenter={'center'}>
                 <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-5 xl:col-start-2'>
-                    <h2>💪🏼 MARKETING DIGITAL</h2>
+                    <h2>💪🏼 GESTÃO DE REDES SOCIAIS E CONTEÚDOS</h2>
                     <h1 className='pt-2 font-bold text-5xl md:text-[4rem] leading-[95%]'>Alcança o teu sucesso online! ✨</h1>
                     <div className='py-8'>
                         <Text>
-                            Quer estejas a dar os primeiros passos no mundo digital ou a procurar impulsionar o teu negócio para novos patamares de sucesso,
-                            estamos aqui para te ajudar.
+                            Se és apaixonado/a pelo que fazes e queres mostrar a essência do teu negócio, a nossa equipa está aqui para te dar uma mãozinha!
                             <br />
-                            Com estratégias de marketing digital personalizadas, vamos transformar os teus sonhos em realidade.
                             <br />
-                            Juntos, vamos alcançar o extraordinário! 💼 🚀
+                            Oferecemos estratégias de marketing digital feitas à tua medida e vamos fazer com que os teus sonhos se tornem realidade. 🚀
+                            <br />
+                            <br />
+                            Junta-te a nós e vamos alcançar resultados extraordinários juntos! 💪🏼✨
                         </Text>
                     </div>
                     <div className='flex items-center gap-x-4'>
