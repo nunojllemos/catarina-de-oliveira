@@ -37,7 +37,7 @@ export default function Blog() {
                 </div>
                 <div className='col-span-12 pt-8 pb-16'>
                     <Text position='center' size='xxxl' element='h1'>
-                        Novos Post Brevemente 🔜
+                        Novos Posts Brevemente 🔜
                     </Text>
                     <div className='mt-8'>
                         <Text position='center' size='lg' element='p'>
