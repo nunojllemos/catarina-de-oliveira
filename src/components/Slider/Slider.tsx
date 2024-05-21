@@ -30,6 +30,10 @@ const Slider = () => {
             filename: 'photo-5.jpg',
             alt: 'Foto da Catarina de Oliveira',
         },
+        {
+            filename: 'photo-6.jpg',
+            alt: 'Foto da Catarina de Oliveira',
+        },
     ]
 
     const swiperOptions = {

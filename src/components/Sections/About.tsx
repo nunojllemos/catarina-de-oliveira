@@ -38,7 +38,7 @@ const About = () => {
                         brilhar! 💼💫
                     </Text>
                 </div>
-                <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-4 xl:col-start-8 relative rounded-md overflow-hidden shadow-[6px_6px_0_#995759] aspect-[3/3.5]'>
+                <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-4 xl:col-start-8 relative rounded-md overflow-hidden shadow-[6px_6px_0_#995759] aspect-[1366/2048]'>
                     <Slider />
                 </div>
             </Grid>
