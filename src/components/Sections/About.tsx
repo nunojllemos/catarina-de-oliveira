@@ -1,7 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
 import Grid from '@/components/Grid'
 import Text from '@/components/Text'
+import Slider from '../Slider/Slider'
 
 const About = () => {
     return (
@@ -38,15 +38,8 @@ const About = () => {
                         brilhar! 💼💫
                     </Text>
                 </div>
-                <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-4 xl:col-start-8 relative rounded-md overflow-hidden shadow-[6px_6px_0_#995759] aspect-[3/4]'>
-                    <div className='bg-white/25 w-full h-full absolute top-0 left-0 z-10'></div>
-                    <Image
-                        sizes='100vw, (max-width: 1024px) 50vw, (max-width: 1440px) 500px'
-                        alt='Foto da Catarina de Oliveira'
-                        src='/catarina.jpeg'
-                        className='w-full object-cover !relative'
-                        fill={true}
-                    />
+                <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-4 xl:col-start-8 relative rounded-md overflow-hidden shadow-[6px_6px_0_#995759] aspect-[3/3.5]'>
+                    <Slider />
                 </div>
             </Grid>
         </section>

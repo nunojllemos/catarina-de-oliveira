@@ -49,7 +49,7 @@ const Plans = () => {
                 </div>
             </Grid>
             <div className='mt-16 hidden lg:flex justify-center'>
-                <Button variant='secondary' href='#contactos'>
+                <Button isLink={true} variant='secondary' href='#contactos'>
                     {'✉️'} Obtenha mais informações
                 </Button>
             </div>

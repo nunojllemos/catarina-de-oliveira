@@ -20,8 +20,8 @@ const ServiceCard = ({ title, description, hashtag, id }: PropsTypes) => {
                 <h3 className='text-[22px] font-bold leading-[110%]'>{title}</h3>
             </div>
             <div className='mt-4 mb-8'>
-                <Text leading={'very-tight'}>
-                    <span dangerouslySetInnerHTML={{ __html: description }}></span>
+                <Text element='div' leading={'very-tight'}>
+                    <p dangerouslySetInnerHTML={{ __html: description }}></p>
                 </Text>
                 <div className='mt-1'>
                     <Text leading={'very-tight'} variant={'secondary'} size={'sm'}>
@@ -30,7 +30,7 @@ const ServiceCard = ({ title, description, hashtag, id }: PropsTypes) => {
                 </div>
             </div>
             <div className='mt-auto'>
-                <Button variant='secondary' href='#contactos'>
+                <Button isLink={true} variant='secondary' href='#contactos'>
                     {'✉️'} Saber mais
                 </Button>
             </div>

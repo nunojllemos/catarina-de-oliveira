@@ -35,7 +35,7 @@ const variants = cva('leading-tight', {
 
 interface PropsTypes extends VariantProps<typeof variants> {
     children: React.ReactNode
-    element?: 'p' | 'span' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+    element?: 'p' | 'span' | 'div' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
 }
 
 const Text = ({ children, element = 'p', size, position, variant, leading }: PropsTypes) => {
