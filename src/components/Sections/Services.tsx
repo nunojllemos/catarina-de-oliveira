@@ -48,7 +48,7 @@ const Services = () => {
                         Todos os dias trabalhamos com dedicação para garantir que te sintas valorizado/a e apoiado/a.
                         <br />
                         <br />
-                        Juntos, vamos tornar cada experiência única e especial! 🤝🏼 ✨
+                        Juntos, vamos tornar cada experiência única e especial! 🤝🏼✨
                     </Text>
                 </Container>
             </div>
