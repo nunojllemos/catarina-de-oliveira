@@ -2,6 +2,7 @@ import React from 'react'
 import Grid from '../Grid'
 import PlanCard from '../Cards/PlanCard'
 import Text from '../Text'
+import Button from '../Button'
 
 const Plans = () => {
     const plans = [
@@ -47,6 +48,11 @@ const Plans = () => {
                     </Text>
                 </div>
             </Grid>
+            <div className='mt-16 hidden lg:flex justify-center'>
+                <Button variant='secondary' href='#contactos'>
+                    {'✉️'} Obtenha mais informações
+                </Button>
+            </div>
         </section>
     )
 }

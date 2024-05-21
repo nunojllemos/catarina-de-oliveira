@@ -47,7 +47,7 @@ const PlanCard = ({ title, price, posts, stories, reels, report, hashtags }: Pro
                     )}
                 </ul>
             </div>
-            <div className='mt-8'>
+            <div className='mt-8 block lg:hidden'>
                 <Link className='border-b border-rouge text-rouge' href='/#contactos'>
                     + Saber mais
                 </Link>

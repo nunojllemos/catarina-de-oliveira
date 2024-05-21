@@ -27,7 +27,7 @@ const Services = () => {
         {
             title: '🖌️ Design Gráfico',
             description:
-                'Queres ver as tuas vendas disparar 📈, ganhar mais visibilidade online 🌐 e alcançar novos horizontes? 🚀 <br/><br/> <b>O nosso serviço de design gráfico é a chave para o teu sucesso!</b> 🗝️ <br/><br/> Vamos criar elementos gráficos impressionantes 🎨 que vão fortalecer a identidade visual da tua marca, desde logotipos impactantes 🏷️ até posts cativantes para as redes sociais. <br/><br/> ✨ Não percas mais tempo! 🌟 Entra em contacto connosco hoje mesmo e vamos juntos dar vida à tua marca! 🚀💬',
+                'Queres ver as tuas vendas disparar 📈, ganhar mais visibilidade online 🌐 e alcançar novos horizontes? 🚀 <br/><br/> <b>O nosso serviço de design gráfico é a chave para o teu sucesso!</b> 🗝️ <br/><br/> Vamos criar elementos gráficos impressionantes 🎨 que vão fortalecer a identidade visual da tua marca, desde logotipos impactantes 🏷️ até posts cativantes para as redes sociais. <br/><br/> ✨ <b>Não percas mais tempo! 🌟 Entra em contacto connosco hoje mesmo e vamos juntos dar vida à tua marca! </b> 🚀💬',
             hashtag: '#design',
         },
         {
