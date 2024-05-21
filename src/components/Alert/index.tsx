@@ -7,9 +7,9 @@ const Alert = () => {
         <div className='bg-rouge py-2'>
             <Container>
                 <Text variant={'normal'} size={'sm'} position={'center'}>
-                    <span className='font-semibold'>👀 Novidades: </span>
-                    <Link className='underline' href='/'>
-                        Como é que ganho mais visibilidade no facebook
+                    <span className='font-semibold'>👀 Brevemente: </span>
+                    <Link className='underline' href='/blog'>
+                        Novos posts de Blog para breve. Fica atento!
                     </Link>
                 </Text>
             </Container>

@@ -37,11 +37,18 @@ export default function Blog() {
                 </div>
                 <div className='col-span-12 pt-8 pb-16'>
                     <Text position='center' size='xxxl' element='h1'>
-                        Blog 👩🏼‍🎓
+                        Novos Post Brevemente 🔜
                     </Text>
+                    <div className='mt-8'>
+                        <Text position='center' size='lg' element='p'>
+                            Estamos a trabalhar para desenvolver os melhores posts com o conteúdo mais relevante.
+                            <br />
+                            Fica atento ✨
+                        </Text>
+                    </div>
                 </div>
             </Grid>
-            <PostsList />
+            {/* <PostsList /> */}
         </React.Fragment>
     )
 }
