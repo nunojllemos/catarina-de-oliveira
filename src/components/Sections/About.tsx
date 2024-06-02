@@ -29,7 +29,7 @@ const About = () => {
                         <br />
                         <br />
                         Não foi um caminho fácil, mas cada desafio ensinou-me a superar os meus limites. Sou uma pessoa empática, apaixonada por animais e tenho
-                        um fiel amigo acerca de 2 anos: o meu querido Olaf! 🐾 <span className='inline-block ml-px'></span> A minha família e amigos são o meu
+                        um fiel amigo há cerca de 2 anos: o meu querido Olaf! 🐾 <span className='inline-block ml-px'></span> A minha família e amigos são o meu
                         porto seguro, a minha fonte de apoio e Inspiração! {'❤️'}
                         <br />
                         <br />
