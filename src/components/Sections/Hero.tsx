@@ -13,7 +13,7 @@ const Hero = () => {
                     <h1 className='pt-2 font-bold text-5xl md:text-[4.75rem] leading-[95%]'>Vamos dar um UP nas tuas redes sociais! ✨</h1>
                     <div className='py-8'>
                         <Text>
-                            Se és apaixonado/a pelo que fazes e queres mostrar a essência do teu negócio, a nossa equipa está aqui para te dar uma mãozinha!
+                            Se és apaixonado pelo que fazes e queres mostrar a essência do teu negócio, a nossa equipa está aqui para te dar uma mãozinha!
                             <br />
                             <br />
                             Oferecemos estratégias de marketing digital feitas à tua medida e vamos fazer com que os teus sonhos se tornem realidade. 🚀
