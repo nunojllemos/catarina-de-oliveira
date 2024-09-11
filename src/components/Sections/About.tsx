@@ -8,7 +8,7 @@ const About = () => {
         <section id='sobre' className='pt-16 lg:pt-24 scroll-m-16'>
             <Grid>
                 <div className='col-span-12 xl:col-span-10 xl:col-start-2'>
-                    <h2 className='text-center text-2xl'>🐞 Sobre mim</h2>
+                    <h2 className='text-center text-2xl'>Sobre mim</h2>
                 </div>
             </Grid>
             <Grid className='items-center mt-8 gap-y-16'>
