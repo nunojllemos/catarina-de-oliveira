@@ -9,8 +9,8 @@ const Hero = () => {
         <section className='py-16 relative lg:static'>
             <Grid className='gap-y-16' isCenter={'center'}>
                 <div className='col-span-12 md:col-span-10 md:col-start-2 lg:col-span-6 xl:col-span-5 xl:col-start-2'>
-                    <h2>💪🏼 GESTÃO DE REDES SOCIAIS E CONTEÚDOS</h2>
-                    <h1 className='pt-2 font-bold text-5xl md:text-[4rem] leading-[95%]'>Alcança o teu sucesso online! ✨</h1>
+                    <h2 className='text-xl'>💪🏼 GESTÃO DE REDES SOCIAIS</h2>
+                    <h1 className='pt-2 font-bold text-5xl md:text-[4.75rem] leading-[95%]'>Vamos dar um UP nas tuas redes sociais! ✨</h1>
                     <div className='py-8'>
                         <Text>
                             Se és apaixonado/a pelo que fazes e queres mostrar a essência do teu negócio, a nossa equipa está aqui para te dar uma mãozinha!
@@ -31,7 +31,7 @@ const Hero = () => {
                         </Button>
                     </div>
                 </div>
-                <div className='absolute right-8 top-1/2 -translate-y-1/2 w-[calc(100%_-_4rem)] md:w-[50%] opacity-15 lg:translate-y-0 lg:w-auto lg:opacity-100 lg:static col-span-8 col-start-3 lg:col-span-6 xl:col-span-5'>
+                <div className='absolute right-8 top-1/2 -translate-y-1/2 w-[calc(100%_-_4rem)] md:w-[50%] opacity-15 lg:translate-y-0 lg:w-auto lg:opacity-100 lg:static col-span-8 col-start-3 lg:col-span-6 xl:col-span-4 xl:col-start-8 aspect-[9/14]'>
                     <HeroImage />
                 </div>
             </Grid>

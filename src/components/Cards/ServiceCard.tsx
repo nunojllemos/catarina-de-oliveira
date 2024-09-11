@@ -12,7 +12,7 @@ interface PropsTypes {
 
 const ServiceCard = ({ title, description, hashtag, id }: PropsTypes) => {
     return (
-        <article className='py-6 px-3 rounded-md border flex flex-col border-rouge w-full shadow-[4px_4px_0_#995759] grow'>
+        <article className='py-6 px-4 rounded-md border flex flex-col border-rouge w-full shadow-[4px_4px_0_#995759] grow'>
             <div className='flex items-center gap-4'>
                 <Text leading={'very-tight'} variant='secondary'>
                     {zeroPad(id + 1)}
